@@ -1,0 +1,17 @@
+What am i Doing 
+
+pnpm init 
+tsc --init
+src folder --> give path for root and output
+npx gitignore Node
+
+
+change scripts 
+"scripts": {
+  "start": "node dist/index",
+  "build": "tsc -p .",
+  "dev": "tsc-watch --onSuccess \"node dist/index\""
+}
+
+install tsc-watch as dev dependency
+
