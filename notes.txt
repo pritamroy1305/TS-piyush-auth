@@ -15,3 +15,18 @@ change scripts
 
 install tsc-watch as dev dependency
 
+#npm Express and its types
+
+SETup Server by code 
+
+install handlers EXPRESS  (A handler is simply a function that runs when a specific route is hit.
+It receives the request and sends a response.)
+
+create app folder here my business logic goes
+
+now setup the express inside app / indix file 
+then tell serve to handle my routes
+
+
+
+
