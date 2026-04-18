@@ -27,6 +27,24 @@ create app folder here my business logic goes
 now setup the express inside app / indix file 
 then tell serve to handle my routes
 
+#Setup Docker 
+i need a pg container --> Make docker compose file 
+setup docker locally i docker.composre.yml file
+
+ ports:
+      - "5432:5432"  port mapping 
+
+volumes: 
+      - pgdata:/var/lib/postgresql/data
+      volume mapping that creates the memeory in local machine permanent 
+
+      docker ps
+      docker compose up -D 
+
+
+
+
+
 
 
 
