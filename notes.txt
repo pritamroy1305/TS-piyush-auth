@@ -41,6 +41,22 @@ volumes:
       docker ps
       docker compose up -D 
 
+#Connection to DB / Drizzle 
+
+follow this link--  https://orm.drizzle.team/docs/get-started/postgresql-new
+
+db object is you Connection
+
+Now make tables
+table creted
+
+DB migration schema --> Db
+
+setup studio "studio": "drizzle-kit studio"
+
+now do db migration  --> npx drizzle-kit push
+
+dnt directly push see firthst the sql file then push 
 
 
 
